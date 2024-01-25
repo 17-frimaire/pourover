@@ -93,7 +93,7 @@ button:hover {
 #idle_inhibitor,
 #scratchpad,
 #mpd {
-    padding: 0 10px;
+    padding: 0 16px;
     color: #ffffff;
 }
 
@@ -113,47 +113,37 @@ button:hover {
 }
 
 #clock {
-    background-color: #64727D;
+    background-color: transparent;
 }
 
 #battery {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: transparent;
+   
 }
 
 #battery.charging, #battery.plugged {
-    color: #ffffff;
-    background-color: #26A65B;
+        background-color: transparent;
 }
 
 @keyframes blink {
     to {
-        background-color: #ffffff;
-        color: #000000;
+        background-color: transparent;
+        
     }
 }
 
-#battery.critical:not(.charging) {
-    background-color: #f53c3c;
-    color: #ffffff;
-    animation-name: blink;
-    animation-duration: 0.5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
 
 label:focus {
     background-color: #000000;
 }
 
 #cpu {
-    background-color: #2ecc71;
-    color: #000000;
+    background-color: transparent;
+
 }
 
 #memory {
-    background-color: #9b59b6;
+    background-color: transparent;
 }
 
 #disk {
@@ -165,7 +155,7 @@ label:focus {
 }
 
 #network {
-    background-color: #2980b9;
+    background-color: transparent;
 }
 
 #network.disconnected {
@@ -173,18 +163,17 @@ label:focus {
 }
 
 #pulseaudio {
-    background-color: #f1c40f;
-    color: #000000;
+    background-color: transparent;
 }
 
 #pulseaudio.muted {
-    background-color: #90b1b1;
-    color: #2a5c45;
+    background-color: transparent;
+  
 }
 
 #wireplumber {
-    background-color: #fff0f5;
-    color: #000000;
+    background-color: transparent;
+
 }
 
 #wireplumber.muted {
@@ -206,7 +195,7 @@ label:focus {
 }
 
 #temperature {
-    background-color: #f0932b;
+    background-color: transparent;
 }
 
 #temperature.critical {
@@ -253,16 +242,14 @@ label:focus {
 }
 
 #language {
-    background: #00b093;
-    color: #740864;
+    background-color: transparent;
     padding: 0 5px;
     margin: 0 5px;
     min-width: 16px;
 }
 
 #keyboard-state {
-    background: #97e1ad;
-    color: #000000;
+    background: transparent;
     padding: 0 0px;
     margin: 0 5px;
     min-width: 16px;

@@ -1,2 +1,2 @@
 # pourover
-A place to backup Hyprland config files.
+Hyprland config files.

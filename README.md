@@ -1,2 +1,2 @@
 # pourover
-Hyprland config files
+Some files for setting up Hyprland.

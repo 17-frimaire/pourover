@@ -1,0 +1,12 @@
+# Soft-wrapping text in .md files
+#
+add-highlighter -override global/ wrap -word
+
+## theme
+# colorscheme 
+
+add-highlighter global/ number-lines
+
+add-highlighter global/ show-matching
+
+
